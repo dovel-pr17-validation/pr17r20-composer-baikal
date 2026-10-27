@@ -1,0 +1,86 @@
+/* generics */
+
+body {
+	padding-top: 60px; /* keep content clear of the fixed-top navbar */
+	padding-bottom: 40px;
+}
+
+p.lead { line-height: 40px;}
+
+
+/* Jumbotrons
+-------------------------------------------------- */
+.jumbotron {
+  position: relative;
+}
+.jumbotron h1 {
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: -1px;
+  line-height: 90px;
+}
+.jumbotron p {
+  margin-bottom: 18px;
+  font-weight: 300;
+}
+
+@media (max-width: 550px) {
+        .jumbotron {
+            padding-top:7px;
+        }
+    
+	.jumbotron h1 {
+		font-size: 20px;
+		font-weight: bold;
+		letter-spacing: -1px;
+		line-height: 20px;
+	}
+	
+	p.lead {
+		font-size: 14px;
+		line-height: 14px;
+	}
+}
+
+/* Loader */
+.loader {
+  display: inline-block;
+  width: 64px;
+  height: 64px;
+}
+.loader:after {
+  content: " ";
+  display: block;
+  width: 46px;
+  height: 46px;
+  margin: 1px;
+  border-radius: 50%;
+  border: 5px solid #000;
+  border-color: #000 transparent #000 transparent;
+  animation: lds-dual-ring 1.2s linear infinite;
+}
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.popover {
+  max-width: 100%;
+}
+
+.copy-to-clipboard {
+  cursor: pointer;
+}
+
+.copy-to-clipboard i {
+  margin-left: 5px;
+  opacity: 1;
+}
+
+.copy-to-clipboard:hover i {
+  opacity: 0.5;
+}
