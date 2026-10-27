@@ -19,7 +19,7 @@
     },
     "require-dev" : {
         "friendsofphp/php-cs-fixer": "3.89.2",
-        "phpstan/phpstan": "2.1.53",
+        "phpstan/phpstan": "2.3.3",
         "phpstan/phpstan-deprecation-rules": "2.0.4"
     },
     "replace" : {
